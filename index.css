@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css?family=Alata');
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One');
+* {
+   font-size: 110%;
+   font-family: Alata;
+}
+
+h1.title {
+   font-family: 'Fjalla One';
+   font-size: 200%;
+}
+
+div.title {
+   border: 10px solid #ffff55;
+   border-bottom: 20px solid #ffff55;
+   padding: 20px;
+   background: #ffffaa;
+   height:fit-content;
+   width:45%;
+}
+
+div.subtitle {
+   border: 10px solid #ffff55;
+   padding: 20px;
+   background: #ffffaa;
+   height:fit-content;
+   width:70%;
+}
+
+div.reasons-title {
+   border: 10px solid #ffff55;
+   border-bottom: 20px solid #ffff55;
+   padding: 20px;
+   background: #ffffaa;
+   height:20px;
+   width:20%;
+}
+
+div.reasons {
+   border: 10px solid #ffff55;
+   padding: 20px;
+   background: #ffffaa;
+   height:fit-content;
+   width:70%;
+}
+
+body {
+   background-image: url("bkgb.jpg");
+   background-position: center; 
+   background-size: cover;
+   background-attachment: fixed;
+}
+
+img.sun {
+   position:absolute;
+   left: 60%;
+   top: 0%;
+   width: 200px;
+}
+
+div.menu {
+   margin-left: auto;
+   margin-right: auto 
+   position: relative;
+   display: flex;
+   width: 70%;
+   padding:10px;
+}
+
+
+div.item {
+   border: 10px solid #ffff55;
+   border-bottom: 20px solid #ffff55;
+   padding: 20px;
+   background: #ffffaa;
+   height:fit-content;
+   width:150px;
+   height: 250px;
+   margin:10px;
+}
+
+img.productivity { 
+   width: 100%;
+}
+
+img.redcross { 
+   position: relative;
+   right: 13%;
+   width: 130%;
+}
+
+img.stats {
+   position: relative;
+   right: 20%;
+   bottom: 20%;
+   width: 140%;
+}
+
+div.flextext1{
+   position:relative;
+   text-align: center;
+   bottom: 25%;
+   right: 5%;
+   font-family: 'Fjalla One';
+   font-size: 180%;
+}
+
+div.flextext2{
+   position:relative;
+   text-align: center;
+   bottom: -17%;
+   font-family: 'Fjalla One';
+   font-size: 180%;
+}
+
+div.flextext3{
+   position:relative;
+   text-align: center;
+   bottom: -25%;
+   right: 5%;
+   font-family: 'Fjalla One';
+   font-size: 140%;
+}

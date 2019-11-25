@@ -121,3 +121,22 @@ div.flextext3{
    font-family: 'Fjalla One';
    font-size: 140%;
 }
+
+div.changeheader {
+   border: 10px solid #ffff55;
+   border-bottom: 20px solid #ffff55;
+   padding: 20px;
+   background: #ffffaa;
+   height:fit-content;
+   width:45%;
+}
+
+div.change {
+   border: 10px solid #ffff55;
+   padding: 0px;
+   background: #ffffaa;
+   height:fit-content;
+   width:min-content;
+}
+
+
